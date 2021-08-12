@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+    margin: 0px;
+    background-image: url('https://images.unsplash.com/flagged/photo-1584036561584-b03c19da874c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80');
+    background-repeat: no-repeat;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    /* background: none; */
+    color: rgb(0, 98, 255);
+    opacity: 100%;
+    /* margin-top: 1px; */
+}
+.donate{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: blanchedalmond;
+    border: 5px solid rgb(255, 255, 255) ;
+    font-size: 30px;
+    margin: 5px;
+}
+.msg{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+img{
+    height: 40vh;
+}
+.donBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
