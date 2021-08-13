@@ -7,6 +7,37 @@ body{
     background-image: url('corona.jpg');
     background-repeat: no-repeat;
 }
+nav{
+    width:100%;
+    height:100%;
+    background-color: rgb(0, 0, 0);
+    padding:0;
+    spacing:0;
+}
+nav ul {
+    float:right;
+    display:inline-block;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+li{
+    display: inline-block;
+    line-height:70px;
+}
+label.logo{
+	color:white;
+	font-size:35px;
+	line-height:80px;
+	padding:0 100px;
+	font-weight:bold;
+}
+nav ul li a{
+	color:white;
+	font-size:30px;
+	padding:7px 13px;
+	border-radius:3px;
+	text-transform:uppercase;
+}
 .head{
     display: flex;
     justify-content: center;
@@ -45,4 +76,59 @@ img{
     align-items: center;
     justify-content: center;
     margin: 5px;
+}
+a.active , a:hover{
+    background:brown;
+    transition:0.5s;
+}
+table{
+    padding:0;
+}
+th{
+    font-size:xxx-large;
+}
+td{
+    font-size: x-large;
+}
+.Mg { background-image: url("img/orphan-unhappy-boy-sitting-park-bench-crying-lonely-young-45928976.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+   background-size: 100%;
+}
+#AB{
+   color:rgb(0, 0, 0);
+}
+.jk{
+   font-family: 'Zen Tokyo Zoo', cursive;
+   color: brown;
+  
+}
+
+#mm{
+    width:50%;
+    margin-top:100%;
+    padding:30px 30px 30px;
+    margin:auto;
+    /* color:black ; */
+    background-color: rgb(255, 81, 0);
+    opacity: 50%;
+    text-align:center;
+    border-radius:5px;
+    text-align:justify;
+  
+    box-shadow:0px 0px 20px 1px rgb(0,0,0,5);
+}    
+
+#jk{
+    float :right;
+  width:auto;
+  margin-top:100%;
+  padding:30px 30px 30px;
+  margin:auto;
+  color:black ;
+  text-align:center;
+  border-radius:5px;
+  text-align:justify;
+
+  box-shadow:0px 0px 20px 1px rgb(0,0,0,5);
 }
